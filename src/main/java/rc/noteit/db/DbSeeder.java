@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>RomanianCoderExamples/FeedbackViewModel.java at master · dangeabunea/RomanianCoderExamples · GitHub</title>
+  <title>RomanianCoderExamples/DbSeeder.java at master · dangeabunea/RomanianCoderExamples · GitHub</title>
     <meta name="description" content="Java / SpringBoot / Angular examples for the Romanian Coder YouTube channel - dangeabunea/RomanianCoderExamples">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -41,7 +41,7 @@
   
   <meta name="pjax-timeout" content="1000">
   
-  <meta name="request-id" content="FB96:38316:3F95C:604FC:5CC9C1EF" data-pjax-transient>
+  <meta name="request-id" content="FB96:38316:37F29:54EB0:5CC9C0D0" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="FB96:38316:3F95C:604FC:5CC9C1EF" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="FB96:38316:37F29:54EB0:5CC9C0D0" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -70,7 +70,7 @@
     <meta name="user-login" content="">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="ZTFkMjU4Y2UyZGMxNWQ3ZjA1ODhlYjBiYzUzMzY2ODNkMWVkZTk4MDQwMWE5MjE1MWMxYjdkZTI2NjFjOTk3YXx7InJlbW90ZV9hZGRyZXNzIjoiMTYwLjE3Ny42OS45MCIsInJlcXVlc3RfaWQiOiJGQjk2OjM4MzE2OjNGOTVDOjYwNEZDOjVDQzlDMUVGIiwidGltZXN0YW1wIjoxNTU2NzI2MjYyLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="N2I3ZTEzNmFlMjY4OTg0NjRjMmM0ZmM5NTJlZjE5NDgxMjYwYmFjMmEzNDRiOTE4NTRkMjUxNTAxOGUwMTc1NXx7InJlbW90ZV9hZGRyZXNzIjoiMTYwLjE3Ny42OS45MCIsInJlcXVlc3RfaWQiOiJGQjk2OjM4MzE2OjM3RjI5OjU0RUIwOjVDQzlDMEQwIiwidGltZXN0YW1wIjoxNTU2NzI1OTY5LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS">
 
@@ -86,7 +86,7 @@
   <meta name="octolytics-dimension-user_id" content="5540674" /><meta name="octolytics-dimension-user_login" content="dangeabunea" /><meta name="octolytics-dimension-repository_id" content="56177361" /><meta name="octolytics-dimension-repository_nwo" content="dangeabunea/RomanianCoderExamples" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="56177361" /><meta name="octolytics-dimension-repository_network_root_nwo" content="dangeabunea/RomanianCoderExamples" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/dangeabunea/RomanianCoderExamples/blob/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/dangeabunea/RomanianCoderExamples/blob/master/NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -256,7 +256,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=m9TRBLHlwfoQrnYf0jRm0zhgoSQ08OqmKubKqVSip3f/GEQVTf2k/BmwOBW1/csAWZPSqQ97CP9OdasfnfbPyw=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=02LbPtUmI6OAYoFOGe4DMI9WjfHRAD/8Wl6x3+5vtQ63rk4vKT5GpYl8z0R+J67j7qX+fOqL3aU+zdBpJzvdsg=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -381,9 +381,9 @@
 
           </div>
 
-        <a class="HeaderMenu-link no-underline mr-3" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;27218429.1551624561&quot;,&quot;originating_request_id&quot;:&quot;FB96:38316:3F95C:604FC:5CC9C1EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/blob/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java&quot;,&quot;referrer&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="803682cd8d7367209607ffee436660f17bad7d912e8d3ad2c9afa4f239808c70" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in" href="/login?return_to=%2Fdangeabunea%2FRomanianCoderExamples%2Fblob%2Fmaster%2FNoteIt%2Fnoteit-api%2Fsrc%2Fmain%2Fjava%2Frc%2Fnoteit%2Fapi%2Fviewmodel%2FFeedbackViewModel.java">
+        <a class="HeaderMenu-link no-underline mr-3" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;27218429.1551624561&quot;,&quot;originating_request_id&quot;:&quot;FB96:38316:37F29:54EB0:5CC9C0D0&quot;,&quot;originating_url&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/blob/master/NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java&quot;,&quot;referrer&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/db&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e089a9e7a0e8008d09e2e0b606400dd684a8ca7f787fccc1ae3bb582888c5e09" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in" href="/login?return_to=%2Fdangeabunea%2FRomanianCoderExamples%2Fblob%2Fmaster%2FNoteIt%2Fnoteit-api%2Fsrc%2Fmain%2Fjava%2Frc%2Fnoteit%2Fdb%2FDbSeeder.java">
           Sign&nbsp;in
-</a>          <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;27218429.1551624561&quot;,&quot;originating_request_id&quot;:&quot;FB96:38316:3F95C:604FC:5CC9C1EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/blob/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java&quot;,&quot;referrer&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="bd8c059a595f4583fb242e47067d0423bd9b04e9374db48fc3a42bdae9bbdd62" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up" href="/join">
+</a>          <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;27218429.1551624561&quot;,&quot;originating_request_id&quot;:&quot;FB96:38316:37F29:54EB0:5CC9C0D0&quot;,&quot;originating_url&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/blob/master/NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java&quot;,&quot;referrer&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/db&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5fceacfe8145167f1041912907db88fd16cce55f5be5d52548c9b96a8503ea73" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up" href="/join">
             Sign&nbsp;up
 </a>      </div>
     </div>
@@ -423,7 +423,7 @@
 
   <li>
     
-  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;27218429.1551624561&quot;,&quot;originating_request_id&quot;:&quot;FB96:38316:3F95C:604FC:5CC9C1EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/blob/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java&quot;,&quot;referrer&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="059740a5b5b5bdad9bd74c91eb3b3a5dbc1d2f12b54dda310f458c84f1ebc742" href="/login?return_to=%2Fdangeabunea%2FRomanianCoderExamples">
+  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;27218429.1551624561&quot;,&quot;originating_request_id&quot;:&quot;FB96:38316:37F29:54EB0:5CC9C0D0&quot;,&quot;originating_url&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/blob/master/NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java&quot;,&quot;referrer&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/db&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="007f2d73e0bb16521b3f443b42ca757fbf48ef4cbe8d2d0bbc1b94f3f15771b8" href="/login?return_to=%2Fdangeabunea%2FRomanianCoderExamples">
     <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
     Watch
 </a>    <a class="social-count" href="/dangeabunea/RomanianCoderExamples/watchers"
@@ -434,7 +434,7 @@
   </li>
 
   <li>
-        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:56177361,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;27218429.1551624561&quot;,&quot;originating_request_id&quot;:&quot;FB96:38316:3F95C:604FC:5CC9C1EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/blob/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java&quot;,&quot;referrer&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9581c80b8030ea9e275010bc22dcadd3e86f0b2efa28552a9561f9f9da6d81eb" href="/login?return_to=%2Fdangeabunea%2FRomanianCoderExamples">
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:56177361,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;27218429.1551624561&quot;,&quot;originating_request_id&quot;:&quot;FB96:38316:37F29:54EB0:5CC9C0D0&quot;,&quot;originating_url&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/blob/master/NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java&quot;,&quot;referrer&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/db&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="27cfb5e52aba9e8d2ffd1301fdf40c79c8bd3531f95eb9418ecac5270a127a1e" href="/login?return_to=%2Fdangeabunea%2FRomanianCoderExamples">
       <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
       Star
 </a>
@@ -446,7 +446,7 @@
   </li>
 
   <li>
-      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:56177361,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;27218429.1551624561&quot;,&quot;originating_request_id&quot;:&quot;FB96:38316:3F95C:604FC:5CC9C1EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/blob/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java&quot;,&quot;referrer&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="66b655107845b7cdce1398729b89006a582dfbdcce43e8ccda54a6ba5361868b" href="/login?return_to=%2Fdangeabunea%2FRomanianCoderExamples">
+      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:56177361,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;27218429.1551624561&quot;,&quot;originating_request_id&quot;:&quot;FB96:38316:37F29:54EB0:5CC9C0D0&quot;,&quot;originating_url&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/blob/master/NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java&quot;,&quot;referrer&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/db&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f3f42aace3d3040b7b86901cb4a94fb9627d4e43d7072e8908ab977e2ed5974c" href="/login?return_to=%2Fdangeabunea%2FRomanianCoderExamples">
         <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
         Fork
 </a>
@@ -524,19 +524,19 @@
 
 
   
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/dangeabunea/RomanianCoderExamples/blob/2e3bc66d01e303fbc518724973ca01b6ba6493eb/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/dangeabunea/RomanianCoderExamples/blob/2e3bc66d01e303fbc518724973ca01b6ba6493eb/NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:6d94cfd8f69a5c906b1600a9a7a982e5 -->
+    <!-- blob contrib key: blob_contributors:v21:75e00be7f9a339937bd87699d2738132 -->
           <div class="signup-prompt-bg rounded-1">
       <div class="signup-prompt p-4 text-center mb-4 rounded-1">
         <div class="position-relative">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/prompt_dismissals/signup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="p/iTNx2wKh2USvi/coW3P8CzabOyaRdhljZzXrbc2Ed+rES/oRJW6Vz91Xy8VpVQNAqBc3Uxy+ZL6wwQ5dnMng==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/prompt_dismissals/signup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="ICX9GJgq6kgH+GHB2PsIeoxo4+ZR6LX2OuZd9d/Il0L5cSqQJIiWvM9PTAIWKCoVeNELJpawaXHnOyK7jM2Dmw==" />
             <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
               Dismiss
             </button>
 </form>          <h3 class="pt-2">Join GitHub today</h3>
           <p class="col-6 mx-auto">GitHub is home to over 36 million developers working together to host and review code, manage projects, and build software together.</p>
-          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;27218429.1551624561&quot;,&quot;originating_request_id&quot;:&quot;FB96:38316:3F95C:604FC:5CC9C1EF&quot;,&quot;originating_url&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/blob/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java&quot;,&quot;referrer&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="201d91df6753e4ea6a0feceb765847da96d28a87c76b3be3ea9529b02d4e2be8" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show">Sign up</a>
+          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;27218429.1551624561&quot;,&quot;originating_request_id&quot;:&quot;FB96:38316:37F29:54EB0:5CC9C0D0&quot;,&quot;originating_url&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/blob/master/NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java&quot;,&quot;referrer&quot;:&quot;https://github.com/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/db&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6afe19fce4fc3138c9d89d990d9c9f16c5d1f8d92e70b60b87e8ce6843b390f2" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show">Sign up</a>
         </div>
       </div>
     </div>
@@ -554,7 +554,7 @@
     <span class="css-truncate-target">master</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/dangeabunea/RomanianCoderExamples/ref-list/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/dangeabunea/RomanianCoderExamples/ref-list/master/NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -568,13 +568,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal ml-2 mr-3">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples"><span>RomanianCoderExamples</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt"><span>NoteIt</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api"><span>noteit-api</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src"><span>src</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main"><span>main</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java"><span>java</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc"><span>rc</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit"><span>noteit</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/api"><span>api</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel"><span>viewmodel</span></a></span><span class="separator">/</span><strong class="final-path">FeedbackViewModel.java</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples"><span>RomanianCoderExamples</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt"><span>NoteIt</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api"><span>noteit-api</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src"><span>src</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main"><span>main</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java"><span>java</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc"><span>rc</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit"><span>noteit</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/dangeabunea/RomanianCoderExamples/tree/master/NoteIt/noteit-api/src/main/java/rc/noteit/db"><span>db</span></a></span><span class="separator">/</span><strong class="final-path">DbSeeder.java</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-inline-block">
@@ -584,7 +584,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -592,7 +592,7 @@
 
 
 
-    <include-fragment src="/dangeabunea/RomanianCoderExamples/contributors/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java" class="Box Box--condensed commit-loader">
+    <include-fragment src="/dangeabunea/RomanianCoderExamples/contributors/master/NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java" class="Box Box--condensed commit-loader">
       <div class="Box-body bg-blue-light f6">
         Fetching contributors&hellip;
       </div>
@@ -612,17 +612,17 @@
 <div class="Box-header py-2 d-flex flex-justify-between flex-items-center">
 
   <div class="text-mono f6">
-      43 lines (32 sloc)
+      53 lines (40 sloc)
       <span class="file-info-divider"></span>
-    764 Bytes
+    1.64 KB
   </div>
 
   <div class="d-flex">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/dangeabunea/RomanianCoderExamples/raw/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/dangeabunea/RomanianCoderExamples/blame/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/dangeabunea/RomanianCoderExamples/commits/master/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/dangeabunea/RomanianCoderExamples/raw/master/NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/dangeabunea/RomanianCoderExamples/blame/master/NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/dangeabunea/RomanianCoderExamples/commits/master/NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java">History</a>
     </div>
 
 
@@ -653,7 +653,7 @@
 <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">package</span> <span class="pl-smi">rc.noteit.api.viewmodel</span>;</td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">package</span> <span class="pl-smi">rc.noteit.db</span>;</td>
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
@@ -662,49 +662,48 @@
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.validation.constraints.Email</span>;</td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">org.springframework.boot.CommandLineRunner</span>;</td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.validation.constraints.Min</span>;</td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">org.springframework.boot.autoconfigure.condition.ConditionalOnProperty</span>;</td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.validation.constraints.NotNull</span>;</td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">org.springframework.stereotype.Component</span>;</td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">rc.noteit.model.Note</span>;</td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">FeedbackViewModel</span> {</td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">rc.noteit.model.Notebook</span>;</td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">@NotNull</span></td>
-      </tr>
-      <tr>
-        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-smi">String</span> name;</td>
-      </tr>
-      <tr>
-        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">/**</span></span></td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * This component will only execute (and get instantiated) if the</span></td>
+      </tr>
+      <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">@NotNull</span></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * property noteit.db.recreate is set to true in the</span></td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">@Email</span></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * application.properties file</span></td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-smi">String</span> email;</td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> <span class="pl-c">*/</span></span></td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
@@ -713,45 +712,44 @@
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">@NotNull</span></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@Component</span></td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">@Min</span>(<span class="pl-c1">10</span>)</td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@ConditionalOnProperty</span>(<span class="pl-c1">name</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>noteit.db.recreate<span class="pl-pds">&quot;</span></span>, <span class="pl-c1">havingValue</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>true<span class="pl-pds">&quot;</span></span>)</td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-smi">String</span> feedback;</td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">DbSeeder</span> <span class="pl-k">implements</span> <span class="pl-e">CommandLineRunner</span> {</td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-smi">NotebookRepository</span> notebookRepository;</td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-smi">String</span> <span class="pl-en">getName</span>() {</td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">private</span> <span class="pl-smi">NoteRepository</span> noteRepository;</td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> name;</td>
-      </tr>
-      <tr>
-        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">    }</td>
-      </tr>
-      <tr>
-        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-en">DbSeeder</span>(<span class="pl-smi">NotebookRepository</span> <span class="pl-v">notebookRepository</span>,</td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">                    <span class="pl-smi">NoteRepository</span> <span class="pl-v">noteRepository</span>) {</td>
+      </tr>
+      <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-k">void</span> <span class="pl-en">setName</span>(<span class="pl-smi">String</span> <span class="pl-v">name</span>) {</td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">this</span><span class="pl-k">.</span>notebookRepository <span class="pl-k">=</span> notebookRepository;</td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">this</span><span class="pl-k">.</span>name <span class="pl-k">=</span> name;</td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">this</span><span class="pl-k">.</span>noteRepository <span class="pl-k">=</span> noteRepository;</td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
@@ -764,32 +762,33 @@
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-smi">String</span> <span class="pl-en">getEmail</span>() {</td>
-      </tr>
-      <tr>
-        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> email;</td>
-      </tr>
-      <tr>
-        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">    }</td>
-      </tr>
-      <tr>
-        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">@Override</span></td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-k">void</span> <span class="pl-en">run</span>(<span class="pl-smi">String</span>... <span class="pl-v">args</span>) {</td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"><span class="pl-c">//</span> Remove all existing entities</span></td>
+      </tr>
+      <tr>
         <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-k">void</span> <span class="pl-en">setEmail</span>(<span class="pl-smi">String</span> <span class="pl-v">email</span>) {</td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">this</span><span class="pl-k">.</span>notebookRepository<span class="pl-k">.</span>deleteAll();</td>
       </tr>
       <tr>
         <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">this</span><span class="pl-k">.</span>email <span class="pl-k">=</span> email;</td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">this</span><span class="pl-k">.</span>noteRepository<span class="pl-k">.</span>deleteAll();</td>
       </tr>
       <tr>
         <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">    }</td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
@@ -798,15 +797,15 @@
       </tr>
       <tr>
         <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-smi">String</span> <span class="pl-en">getFeedback</span>() {</td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"><span class="pl-c">//</span> Save a default notebook</span></td>
       </tr>
       <tr>
         <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> feedback;</td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">        var defaultNotebook <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-smi">Notebook</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>Default<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">    }</td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">this</span><span class="pl-k">.</span>notebookRepository<span class="pl-k">.</span>save(defaultNotebook);</td>
       </tr>
       <tr>
         <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
@@ -815,19 +814,62 @@
       </tr>
       <tr>
         <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-k">void</span> <span class="pl-en">setFeedback</span>(<span class="pl-smi">String</span> <span class="pl-v">feedback</span>) {</td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">        var quotesNotebook <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-smi">Notebook</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>Quotes<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">this</span><span class="pl-k">.</span>feedback <span class="pl-k">=</span> feedback;</td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">this</span><span class="pl-k">.</span>notebookRepository<span class="pl-k">.</span>save(quotesNotebook);</td>
       </tr>
       <tr>
         <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">    }</td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"><span class="pl-c">//</span> Save the welcome note</span></td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">        var note <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-smi">Note</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>Hello<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Welcome to Note It<span class="pl-pds">&quot;</span></span>, defaultNotebook);</td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">this</span><span class="pl-k">.</span>noteRepository<span class="pl-k">.</span>save(note);</td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"><span class="pl-c">//</span> Save a quote note</span></td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">        var quoteNote <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-smi">Note</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>Latin Quote<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Carpe Diem<span class="pl-pds">&quot;</span></span>, quotesNotebook);</td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">this</span><span class="pl-k">.</span>noteRepository<span class="pl-k">.</span>save(quoteNote);</td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">&quot;</span>Initialized database<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">}</td>
       </tr>
 </table>
 
@@ -839,7 +881,7 @@
       <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
         <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
         <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/dangeabunea/RomanianCoderExamples/blame/2e3bc66d01e303fbc518724973ca01b6ba6493eb/NoteIt/noteit-api/src/main/java/rc/noteit/api/viewmodel/FeedbackViewModel.java">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/dangeabunea/RomanianCoderExamples/blame/2e3bc66d01e303fbc518724973ca01b6ba6493eb/NoteIt/noteit-api/src/main/java/rc/noteit/db/DbSeeder.java">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/dangeabunea/RomanianCoderExamples/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
@@ -876,7 +918,7 @@
 <div class="footer container-lg width-full px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2019 <span title="0.41972s from unicorn-55cf58786-6jwww">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2019 <span title="0.32165s from unicorn-7fb7cb4977-9txjd">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
